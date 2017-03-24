@@ -8,6 +8,22 @@ public class HelloWorld {
         return "Hello Maven";
     }
 
+    public String sayJenkins(){
+        return "Hello Jenkins";
+    }
+
+    public String sayOne(){
+        return "One";
+    }
+
+    public String sayTwo(){
+        return "two";
+    }
+
+    public String sayThree(){
+        return "three";
+    }
+
     public static void main(String[] args) {
         System.out.print(new HelloWorld().sayHello());
     }
